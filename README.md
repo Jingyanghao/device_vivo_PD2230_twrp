@@ -14,7 +14,7 @@ CPU     | Octa-core CPU with 4x Arm Cortex-A78 up to 3.1GHz
 Chipset | Mediatek Dimensity 8200
 GPU     | Mali-G610 MC6
 Memory  | 8GB/12GB/16GB RAM (LPDDR5T 9600Mbps)
-Shipped Android Version | 12
+Shipped Android Version | Android 13 with OriginOS 3
 Storage | 128GB/256GB/512GB (UFS 3.1)
 Battery | Li-Po 5000 mAh, non-removable
 Display | 2400 × 1080 pixels, 6.78 inches, 60/120 hz
