@@ -1,0 +1,369 @@
+0011bb00-0011bbff : qos@0011bb00
+0c55fb00-0c55fb9f : mbox0_base
+0c55fba0-0c55fc3f : mbox1_base
+0c55fc40-0c55fcdf : mbox2_base
+0c55fce0-0c55fd7f : mbox3_base
+0c55fd80-0c55fe1f : mbox4_base
+0c55fe20-0c55febf : mbox5_base
+0c55fec0-0c55ff5f : mbox6_base
+0c55ff60-0c55ffff : mbox7_base
+0c560074-0c560077 : mbox0_clr
+0c560078-0c56007b : mbox0_recv
+0c562000-0c562003 : mbox0_send
+0c562004-0c562007 : mbox0_set
+10000000-10000fff : topckgen@10000000
+10001000-10001fff : scp_infra@10001000
+10002000-10002fff : infracfg_ao_mem@10002000
+10007000-10007fff : toprgu@10007000
+1000c000-1000cdff : apmixed@1000c000
+10012000-10012fff : dvfsrc@10012000
+10026000-10026fff : pwrap
+10027000-100278fe : pmif
+10028000-10028fff : spi_mst
+10029000-100290ff : spmimst
+10212000-1021207f : cq_dma@10212000
+10212100-1021217f : cq_dma@10212000
+10212200-1021227f : cq_dma@10212000
+10212300-1021237f : cq_dma@10212000
+10217080-102170ff : i2c0@11e00000
+10217100-1021717f : i2c1@11d20000
+10217180-102172ff : i2c2@11d21000
+10217300-1021737f : i2c3@11cb0000
+10217380-102174ff : i2c4@11d22000
+10217500-1021757f : i2c5@11e01000
+10217580-102175ff : i2c6@11f00000
+10217600-1021777f : i2c7@11e02000
+10217780-102178ff : i2c8@11d00000
+10217900-10217a7f : i2c9@11d01000
+10217a80-10217aff : dma-controller@10217a80
+10217b00-10217b7f : dma-controller@10217a80
+10217b80-10217bff : dma-controller@10217a80
+10217c00-10217c7f : dma-controller@10217a80
+10226000-10226fff : emimpu@10226000
+10228000-1022bfff : gce_mbox@10228000
+10230000-10231fff : dramc@10230000
+10234000-10234fff : dramc@10230000
+10236000-10236fff : dramc@10230000
+10238000-10239fff : dramc@10230000
+10240000-10241fff : dramc@10230000
+10244000-10244fff : dramc@10230000
+10246000-10246fff : dramc@10230000
+10248000-10249fff : dramc@10230000
+10400000-10427fff : sspm_base
+10440000-1044ffff : cfgreg
+10450000-104500ff : mbox0_base
+10451000-10451003 : mbox0_set
+10451004-10451007 : mbox0_clr
+10460000-104600ff : mbox1_base
+10461000-10461003 : mbox1_set
+10461004-10461007 : mbox1_clr
+10470000-104700ff : mbox2_base
+10471000-10471003 : mbox2_set
+10471004-10471007 : mbox2_clr
+10480000-104800ff : mbox3_base
+10481000-10481003 : mbox3_set
+10481004-10481007 : mbox3_clr
+10490000-104900ff : mbox4_base
+10491000-10491003 : mbox4_set
+10491004-10491007 : mbox4_clr
+10500000-105bffff : scp_sram_base
+10721000-10721fff : scp_clkreg
+10724000-10724fff : scp_cfgreg
+10730000-10732fff : scp_cfgreg_core0
+10740000-10740fff : scp_cfgreg_core1
+10752000-10752fff : scp_bus_tracker
+10760000-1079ffff : scp_l1creg
+107a5000-107a5003 : scp_cfgreg_sec
+107a5020-107a5023 : mbox0_init
+107a5024-107a5027 : mbox1_init
+107a5028-107a502b : mbox2_init
+107a502c-107a502f : mbox3_init
+107a5030-107a5033 : mbox4_init
+107fb000-107fb0ff : mbox0_base
+107fb100-107fb103 : mbox0_set
+107fb10c-107fb10f : mbox0_clr
+107fc000-107fc0ff : mbox1_base
+107fc100-107fc103 : mbox1_set
+107fc10c-107fc10f : mbox1_clr
+107fd000-107fd0ff : mbox2_base
+107fd100-107fd103 : mbox2_set
+107fd10c-107fd10f : mbox2_clr
+107fe000-107fe0ff : mbox3_base
+107fe100-107fe103 : mbox3_set
+107fe10c-107fe10f : mbox3_clr
+107ff000-107ff0ff : mbox4_base
+107ff100-107ff103 : mbox4_set
+107ff10c-107ff10f : mbox4_clr
+11001000-11001fff : auxadc@11001000
+11002000-1100201f : serial
+11003000-1100301f : serial
+1100a000-1100a0ff : spi0@1100a000
+1100e000-1100efff : disp_pwm0@1100e000
+11010000-110100ff : spi1@11010000
+11012000-110120ff : spi2@11012000
+11013000-110130ff : spi3@11013000
+11015000-11015fff : i2c10@11015000
+11017000-11017fff : i2c11@11017000
+11018000-110180ff : spi4@11018000
+11019000-110190ff : spi5@11019000
+1101d000-1101d0ff : spi6@1101d000
+1101e000-1101e0ff : spi7@1101e000
+11200000-1120ffff : usb0@11200000
+11210000-11211fff : mt6833-afe-pcm@11210000
+11240000-11240fff : mmc@11240000
+11270000-112722ff : ufshci@11270000
+11c70000-11c70fff : mmc@11240000
+11cb0000-11cb0fff : i2c3@11cb0000
+11d00000-11d00fff : i2c8@11d00000
+11d01000-11d01fff : i2c9@11d01000
+11d20000-11d20fff : i2c1@11d20000
+11d21000-11d21fff : i2c2@11d21000
+11d22000-11d22fff : i2c4@11d22000
+11e00000-11e00fff : i2c0@11e00000
+11e01000-11e01fff : i2c5@11e01000
+11e02000-11e02fff : i2c7@11e02000
+11e40000-11e4ffff : usb0@11200000
+  11e40000-11e402ff : usb-phy@11210000
+  11e40300-11e403ff : usb-phy@11210000
+11e50000-11e50fff : mipi_tx_config@11e50000
+11f00000-11f00fff : i2c6@11f00000
+13000000-13003fff : 13000000.mali
+14000000-14000fff : dispsys_config@14000000
+14001000-14001fff : disp_mutex@14001000
+14002000-14002fff : smi_common@14002000
+14003000-14003fff : smi_larb0@14003000
+14004000-14004fff : smi_larb1@14004000
+14013000-14013fff : dsi@14013000
+14016000-14016fff : m4u@14016000
+1401b000-1401bfff : disp_smi_2x1_sub_common_u0@1401b000
+1401c000-1401cfff : disp_smi_2x1_sub_common_u1@1401c000
+1401e000-1401efff : img1_smi_2x1_sub_common@1401e000
+1502e000-1502efff : smi_larb9@1502e000
+1502f000-1502ffff : 2x1_sub_common@1502f000
+15030000-15030fff : smi_larb10@15030000
+1582e000-1582efff : smi_larb11@1582e000
+15830000-15830fff : smi_larb12@15830000
+16020000-160203ff : vdec@16000000
+16021000-16021fff : vdec@16000000
+16023000-16023fff : vdec@16000000
+16025000-16025fff : vdec@16000000
+1602e000-1602efff : smi_larb4@1602e000
+1602f000-1602ffff : vdec@16000000
+16030000-16030fff : smi_larb5@16030000
+16031000-16031fff : smi_larb6@16031000
+17010000-17010fff : smi_larb7@17010000
+17011000-17011fff : smi_larb8@17011000
+17020000-17021fff : venc@17000000
+17030000-1703ffff : jpgenc@17030000
+18000000-180fffff : AXI-BUS
+1a001000-1a001fff : smi_larb13@1a001000
+1a002000-1a002fff : smi_larb14@1a002000
+1a003000-1a003fff : smi_larb15@1a003000
+1a00c000-1a00cfff : cam_smi_subcom@1a00c000
+1a00d000-1a00dfff : cam_smi_subcom@1a00d000
+1a00f000-1a00ffff : smi_larb16@1a00f000
+1a010000-1a010fff : smi_larb17@1a010000
+1a011000-1a011fff : smi_larb18@1a011000
+1b00e000-1b00efff : ipe_smi_subcom@1b00e000
+1b00f000-1b00ffff : smi_larb20@1b00f000
+1b10f000-1b10ffff : smi_larb19@1b10f000
+1f002000-1f002fff : smi_larb2@1f002000
+1f00f000-1f00ffff : smi_larb3@1f00f000
+40000000-4807ffff : System RAM
+  40080000-41e3ffff : Kernel code
+  41e40000-41f8ffff : reserved
+  41f90000-42ac0fff : Kernel data
+  47c80000-47cdcfff : reserved
+48090000-48090fff : persistent_ram
+48091000-48091fff : persistent_ram
+48092000-48092fff : persistent_ram
+48093000-48093fff : persistent_ram
+48094000-48094fff : persistent_ram
+48095000-48095fff : persistent_ram
+48096000-48096fff : persistent_ram
+48097000-48097fff : persistent_ram
+48098000-48098fff : persistent_ram
+48099000-48099fff : persistent_ram
+4809a000-4809afff : persistent_ram
+4809b000-4809bfff : persistent_ram
+4809c000-4809cfff : persistent_ram
+4809d000-4809dfff : persistent_ram
+4809e000-4809efff : persistent_ram
+4809f000-4809ffff : persistent_ram
+480a0000-480a0fff : persistent_ram
+480a1000-480a1fff : persistent_ram
+480a2000-480a2fff : persistent_ram
+480a3000-480a3fff : persistent_ram
+480a4000-480a4fff : persistent_ram
+480a5000-480a5fff : persistent_ram
+480a6000-480a6fff : persistent_ram
+480a7000-480a7fff : persistent_ram
+480a8000-480a8fff : persistent_ram
+480a9000-480a9fff : persistent_ram
+480aa000-480aafff : persistent_ram
+480ab000-480abfff : persistent_ram
+480ac000-480acfff : persistent_ram
+480ad000-480adfff : persistent_ram
+480ae000-480aefff : persistent_ram
+480af000-480affff : persistent_ram
+480b0000-480b0fff : persistent_ram
+480b1000-480b1fff : persistent_ram
+480b2000-480b2fff : persistent_ram
+480b3000-480b3fff : persistent_ram
+480b4000-480b4fff : persistent_ram
+480b5000-480b5fff : persistent_ram
+480b6000-480b6fff : persistent_ram
+480b7000-480b7fff : persistent_ram
+480b8000-480b8fff : persistent_ram
+480b9000-480b9fff : persistent_ram
+480ba000-480bafff : persistent_ram
+480bb000-480bbfff : persistent_ram
+480bc000-480bcfff : persistent_ram
+480bd000-480bdfff : persistent_ram
+480be000-480befff : persistent_ram
+480bf000-480bffff : persistent_ram
+480c0000-480c0fff : persistent_ram
+480c1000-480c1fff : persistent_ram
+480c2000-480c2fff : persistent_ram
+480c3000-480c3fff : persistent_ram
+480c4000-480c4fff : persistent_ram
+480c5000-480c5fff : persistent_ram
+480c6000-480c6fff : persistent_ram
+480c7000-480c7fff : persistent_ram
+480c8000-480c8fff : persistent_ram
+480c9000-480c9fff : persistent_ram
+480ca000-480cafff : persistent_ram
+480cb000-480cbfff : persistent_ram
+480cc000-480ccfff : persistent_ram
+480cd000-480cdfff : persistent_ram
+480ce000-480cefff : persistent_ram
+480cf000-480cffff : persistent_ram
+480d0000-480d0fff : persistent_ram
+480d1000-480d1fff : persistent_ram
+480d2000-480d2fff : persistent_ram
+480d3000-480d3fff : persistent_ram
+480d4000-480d4fff : persistent_ram
+480d5000-480d5fff : persistent_ram
+480d6000-480d6fff : persistent_ram
+480d7000-480d7fff : persistent_ram
+480d8000-480d8fff : persistent_ram
+480d9000-480d9fff : persistent_ram
+480da000-480dafff : persistent_ram
+480db000-480dbfff : persistent_ram
+480dc000-480dcfff : persistent_ram
+480dd000-480ddfff : persistent_ram
+480de000-480defff : persistent_ram
+480df000-480dffff : persistent_ram
+480e0000-480e0fff : persistent_ram
+480e1000-480e1fff : persistent_ram
+480e2000-480e2fff : persistent_ram
+480e3000-480e3fff : persistent_ram
+480e4000-480e4fff : persistent_ram
+480e5000-480e5fff : persistent_ram
+480e6000-480e6fff : persistent_ram
+480e7000-480e7fff : persistent_ram
+480e8000-480e8fff : persistent_ram
+480e9000-480e9fff : persistent_ram
+480ea000-480eafff : persistent_ram
+480eb000-480ebfff : persistent_ram
+480ec000-480ecfff : persistent_ram
+480ed000-480edfff : persistent_ram
+480ee000-480eefff : persistent_ram
+480ef000-480effff : persistent_ram
+480f0000-480f0fff : persistent_ram
+480f1000-480f1fff : persistent_ram
+480f2000-480f2fff : persistent_ram
+480f3000-480f3fff : persistent_ram
+480f4000-480f4fff : persistent_ram
+480f5000-480f5fff : persistent_ram
+480f6000-480f6fff : persistent_ram
+480f7000-480f7fff : persistent_ram
+480f8000-480f8fff : persistent_ram
+480f9000-480f9fff : persistent_ram
+480fa000-480fafff : persistent_ram
+480fb000-480fbfff : persistent_ram
+480fc000-480fcfff : persistent_ram
+480fd000-480fdfff : persistent_ram
+480fe000-480fefff : persistent_ram
+480ff000-480fffff : persistent_ram
+48100000-48100fff : persistent_ram
+48101000-48101fff : persistent_ram
+48102000-48102fff : persistent_ram
+48103000-48103fff : persistent_ram
+48104000-48104fff : persistent_ram
+48105000-48105fff : persistent_ram
+48106000-48106fff : persistent_ram
+48107000-48107fff : persistent_ram
+48108000-48108fff : persistent_ram
+48109000-48109fff : persistent_ram
+4810a000-4810afff : persistent_ram
+4810b000-4810bfff : persistent_ram
+4810c000-4810cfff : persistent_ram
+4810d000-4810dfff : persistent_ram
+4810e000-4810efff : persistent_ram
+4810f000-4810ffff : persistent_ram
+48110000-48110fff : persistent_ram
+48111000-48111fff : persistent_ram
+48112000-48112fff : persistent_ram
+48113000-48113fff : persistent_ram
+48114000-48114fff : persistent_ram
+48115000-48115fff : persistent_ram
+48116000-48116fff : persistent_ram
+48117000-48117fff : persistent_ram
+48118000-48118fff : persistent_ram
+48119000-48119fff : persistent_ram
+4811a000-4811afff : persistent_ram
+4811b000-4811bfff : persistent_ram
+4811c000-4811cfff : persistent_ram
+4811d000-4811dfff : persistent_ram
+4811e000-4811efff : persistent_ram
+4811f000-4815efff : persistent_ram
+4815f000-4815f1ff : persistent_ram
+4815f200-4815f3ff : persistent_ram
+4815f400-4815f5ff : persistent_ram
+4815f600-4815f7ff : persistent_ram
+4815f800-4815f9ff : persistent_ram
+4815fa00-4815fbff : persistent_ram
+4815fc00-4815fdff : persistent_ram
+4815fe00-4815ffff : persistent_ram
+48160000-4816ffff : persistent_ram
+48180000-48bfffff : System RAM
+48e00000-7676ffff : System RAM
+  51100000-51276fff : reserved
+  7676f000-7676ffff : reserved
+76780000-78dfffff : System RAM
+  77780000-78dfffff : reserved
+7f400000-7f4fffff : System RAM
+  7f400000-7f440fff : reserved
+7fe00000-7feaffff : System RAM
+7ffb0000-7fffefff : System RAM
+  7ffbf000-7fffefff : reserved
+80000000-89ffffff : System RAM
+8c960000-8dffffff : System RAM
+8e1b0000-8effffff : System RAM
+8f320000-9d4dffff : System RAM
+a02e0000-a032ffff : System RAM
+  a02e0000-a032ffff : reserved
+a0340000-a0ffffff : System RAM
+a1150000-a1ffffff : System RAM
+a8f30000-b9bcffff : System RAM
+bb300000-bdffffff : System RAM
+be500000-beffffff : System RAM
+bf600000-bf8fffff : System RAM
+bfd80000-bfdfffff : System RAM
+bfe40000-bff63fff : System RAM
+c0000000-ffe5ffff : System RAM
+  fec00000-ffbfffff : reserved
+ffff0000-13fffefff : System RAM
+  ffff6000-ffffefff : reserved
+  fffff000-ffffffff : reserved
+140000000-23fffefff : System RAM
+  237000000-237dfffff : reserved
+  237f02000-23fdfffff : reserved
+  23fe37000-23fe37fff : reserved
+  23fe38000-23ff01fff : reserved
+  23ff02000-23ff02fff : reserved
+  23ff03000-23ff03fff : reserved
+  23ff04000-23ff06fff : reserved
+  23ff07000-23ff07fff : reserved
+  23ff08000-23fffefff : reserved
