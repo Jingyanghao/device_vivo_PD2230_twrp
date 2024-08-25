@@ -69,10 +69,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Treble
 BOARD_VNDK_VERSION := current
 
-# Verified Boot
-BOARD_AVB_ENABLE := true
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
-
 # TWRP Configurations
 TW_DEFAULT_LANGUAGE := zh_CN
 TW_EXTRA_LANGUAGES := true
