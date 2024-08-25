@@ -1,6 +1,0 @@
--1,-1,-1
-chrlmt_pep30_input_curr_limit -1
-chrlmt_chr_input_curr_limit -1
-chrlmt_bat_chr_curr_limit -1
-abcct_cur_bat_chr_curr_limit 2000
-cl_bcct_cur_limit 65535

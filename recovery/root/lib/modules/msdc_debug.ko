@@ -1,9 +1,0 @@
-==== msdc debug info for aee ====
-enable_msdc_debug : 1
-column 1   : log number(Reverse order);
-column 2   : kernel time
-column 3   : type(0-cmd, 1-resp, 5-cqhci cmd, 60-cqhci dcmd doorbell,61-cqhci dcmd complete(irq in), 70-cqhci softirq in);
-column 4&5 : cmd index&arg(1XX-task XX's task descriptor low 32bit, 2XX-task XX's task descriptor high 32bit, 5XX-task XX's task completion(irq in), others index-command index(non 70 type) or cmd/data error(70 type)) others arg-command arg(non 70 type) or cmdq_req->tag(70 type));
-column 6   : repeat count(The role of problem analysis is low);
-column 7   : record data_active_reqs;
-column 8   : only record softirq's running CPU id(only for 70 type);

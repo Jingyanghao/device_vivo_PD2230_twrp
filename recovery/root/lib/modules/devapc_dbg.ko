@@ -1,8 +1,0 @@
-DEVAPC debug status:
-	enable_ut = 0
-	enable_KE = 1
-	enable_AEE = 1
-	enable_WARN = 1
-	enable_dapc = 0
-	violation count = 0
-

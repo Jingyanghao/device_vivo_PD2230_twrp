@@ -1,7 +1,0 @@
-=== mt printk controller ===
-0:   printk uart disable
-1:   printk uart enable
-=== mt printk controller ===
-
-kernel log buffer len: 1024KB
-printk uart enable: 0
