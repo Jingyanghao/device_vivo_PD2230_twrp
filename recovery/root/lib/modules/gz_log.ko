@@ -1,0 +1,606 @@
+====> GZ (0)[    0.003081][memlog_static_init] register pa0x7f400000, size 0x41000
+====> GZ (0)[    0.003085]INIT: cpu 0, calling hook 0x3802f1e4 (KTEE_LK_Init) at level 0x50004, flags 0x1
+====> GZ (0)[    0.003091]INIT: cpu 0, calling hook 0x3802fe2c (mtee_srv_init) at level 0x50004, flags 0x1
+====> GZ (0)[    0.003096]INIT: cpu 0, calling hook 0x38033e5c (mtee_mem_srv_init) at level 0x50004, flags 0x1
+====> GZ (0)[    0.003100][MTEE MEM SRV] 2481: MTEE_MemInit()
+====> GZ (0)[    0.003103][MTEE MEM SRV] 2482:   before handleInit()
+====> GZ (0)[    0.003106][MTEE MEM SRV] 2483:   _TaMemHandleTypeId = 0
+====> GZ (0)[    0.003108][MTEE MEM SRV] 2484:   _TaShmHandleTypeId = 0
+====> GZ (0)[    0.003111][MTEE MEM SRV] 2485:   _TaCHMemHandleTypeId = 0
+====> GZ (0)[    0.003114][MTEE MEM SRV] 2491:   after handleInit()
+====> GZ (0)[    0.003116][MTEE MEM SRV] 2492:   _TaMemHandleTypeId = 939879112
+====> GZ (0)[    0.003119][MTEE MEM SRV] 2493:   _TaShmHandleTypeId = 939879120
+====> GZ (0)[    0.003121][MTEE MEM SRV] 2494:   _TaCHMemHandleTypeId = 939879136
+====> GZ (0)[    0.003124][MTEE SYS] 112: gz-md shared buffer is not configured!
+====> GZ (0)[    0.003127]INIT: cpu 0, calling hook 0x380377c8 (mtee_sys_init) at level 0x50004, flags 0x1
+====> GZ (0)[    0.003131][MTEE SYS] 615: mtee_sys_init 
+====> GZ (0)[    0.003134][MTEE RTC] 562: rtc_init 
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+====> GZ (0)[    0.003140][MTEE RTC] 569: [MTEE PWARP] pwarp/RTC is enabled!
+====> GZ (0)[    0.003143][MTEE RTC] 575: rtc base = 0x600
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+====> GZ (0)[    0.003163][MTEE RTC] 527: RTC_SEC_DSN_ID[0x0]=0x3200, RTC_SEC_DSN_REV0[0x2]=0x1000
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+====> GZ (0)[    0.003173][MTEE RTC] 528: RTC_SEC_CK_PDN[0x1]=0x0
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+is_platform_spmi_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_SPMI_EN: 0x10
+is_platform_pwrap_enabled g_gz_plat.flags: 0x8000004d, GZ_PLAT_FLAGS_PWRAP_EN: 0x8
+====> GZ (0)[    0.003223][MTEE RTC] 437: rtc_ops_read_time = 2010/01/04 (1) 02:54:38
+====> GZ (0)[    0.003228][MTEE RTC] 592: Current RTC time:[2010/1/4 2:54:38]
+====> GZ (0)[    0.003232]platform_get_gz_tee_static_mem no gz_tee_static_mem
+====> GZ (0)[    0.003235]INIT: cpu 0, calling hook 0x380392fc (mtee_sapu_init) at level 0x50004, flags 0x1
+====> GZ (0)[    0.003239][SAPU_DRV] 638: mtee_sapu_init ->
+====> GZ (0)[    0.003242][SAPU_DRV] 641: mtee_sapu_init cpu_type=0x989
+====> GZ (0)[    0.003245][SAPU_DRV] error 649: no install mtee_sapu_init
+====> GZ (0)[    0.003248]INIT: cpu 0, calling hook 0x38009e6c (hyp_mmu_init) at level 0x50005, flags 0x1
+====> GZ (0)[    0.003252]hyp_mmu_init:1007: skip init global pgd
+====> GZ (0)[    0.003255]hyp_mmu_init:1020: init done
+====> GZ (0)[    0.003257]INIT: cpu 0, calling hook 0x38021c90 (rkp_init) at level 0x50005, flags 0x1
+====> GZ (0)[    0.003262][GZ_EXPORT] 993: no RKP, rkp is not enable
+====> GZ (0)[    0.003265]INIT: cpu 0, calling hook 0x3803e09c (test_kta_api_init) at level 0x50005, flags 0x1
+[KTEE UT]KTA mem api:
+====> GZ (0)[    0.003269][TEST KTA API] 29: KTA_Mem_AllocMem:
+====> GZ (0)[    0.003273][TEST KTA API] 37: Get mem_handle = 1
+====> GZ (0)[    0.003276][TEST KTA API] 38: Memory addr= 0x3827e828
+====> GZ (0)[    0.003278][TEST KTA API] 39: Stored value = 66   // should be 66
+====> GZ (0)[    0.003281][TEST KTA API] 41: KTA_Mem_ReferenceMem: should return pointer to the memory of the input handle
+====> GZ (0)[    0.003285][TEST KTA API] 46: Memory addr = 0x3827e828
+====> GZ (0)[    0.003288][TEST KTA API] 47: Stored value = 33   // should be 33
+====> GZ (0)[    0.003290][TEST KTA API] 49: KTA_Mem_UnreferenceMem: should return reference count of the input memory handle
+====> GZ (0)[    0.003294][TEST KTA API] 52: Ref count of handle = 1   // should be 1
+[KTEE UT]KTA mem api: PASSED
+[KTEE UT]======== UT report =======
+[KTEE UT]total test cases: 6
+[KTEE UT]FAILED test cases: 0
+[KTEE UT]===========> UT SUCCESSED
+====> GZ (0)[    0.003300]INIT: cpu 0, calling hook 0x3803e404 (test_mtee_api_init) at level 0x50005, flags 0x1
+====> GZ (0)[    0.003304][KTEE SYS UT] 130: UT start
+====> GZ (0)[    0.003307][KTEE SYS UT] 57: dummy value: 10, name: QQQ
+====> GZ (0)[    0.003309][KTEE SYS UT] 58: dummy2 value: 20, name: OAQ
+[KTEE UT]ktee handle:
+====> GZ (0)[    0.003313][KTEE SYS UT] 72: handle type: 0x3805ae28
+====> GZ (0)[    0.003315][KTEE SYS UT] 76: handle value: 0x2
+====> GZ (0)[    0.003318][KTEE SYS UT] 88: new dummy value: 87
+====> GZ (0)[    0.003321][KTEE SYS UT] 89: new dummy name: QoQ
+[KTEE UT]ktee handle: PASSED
+[KTEE UT]ktee session:
+====> GZ (0)[    0.003326][session] 102: [dummp/service] se: <null>
+====> GZ (0)[    0.003329][KTEE SYS UT] 107: session value: 0x3
+====> GZ (0)[    0.003334][KTEE SYS UT] 32: call free_callback 1
+[KTEE UT]ktee session: PASSED
+[KTEE UT]======== UT report =======
+[KTEE UT]total test cases: 14
+[KTEE UT]FAILED test cases: 0
+[KTEE UT]===========> UT SUCCESSED
+====> GZ (0)[    0.003340][KTEE SYS UT] 137: unit test end
+initializing mp
+initializing threads
+initializing timers
+creating bootstrap completion thread
+top of bootstrap2()
+creating bootstrap completion thread for cpu 1
+creating bootstrap completion thread for cpu 2
+creating bootstrap completion thread for cpu 3
+creating bootstrap completion thread for cpu 4
+creating bootstrap completion thread for cpu 5
+creating bootstrap completion thread for cpu 6
+creating bootstrap completion thread for cpu 7
+initializing platform
+====> GZ (0)[    0.003471]INIT: cpu 0, calling hook 0x3801333c (libsm_cpu) at level 0x8fffe, flags 0x23
+====> GZ (0)[    0.003527]INIT: cpu 0, calling hook 0x38012094 (libsm) at level 0x8ffff, flags 0x1
+====> GZ (0)[    0.003536]INIT: cpu 0, calling hook 0x3802c47c (percpu) at level 0x8ffff, flags 0x1
+initializing target
+====> GZ (0)[    0.003543]INIT: cpu 0, calling hook 0x380031b0 (platform_timer) at level 0x90000, flags 0x1
+====> GZ (0)[    0.003551]mtk_systimer_init:
+====> GZ (0)[    0.003557]INIT: cpu 0, calling hook 0x3802d4f4 (gz_apu_power_init) at level 0x90004, flags 0x1
+====> GZ (0)[    0.003561][GZ_APU_POWER] error 403: [ERROR] gz_apu_power_init: not support secure apu power 
+calling apps_init()
+====> GZ (0)[    0.003566]INIT: cpu 0, calling hook 0x3801754c (uctx) at level 0xafffe, flags 0x1
+====> GZ (0)[    0.003571]INIT: cpu 0, calling hook 0x3801efbc (tipc_init) at level 0xafffe, flags 0x1
+====> GZ (0)[    0.003584]INIT: cpu 0, calling hook 0x38013890 (libtrusty) at level 0xaffff, flags 0x1
+====> GZ (0)[    0.003590]Version of GZ: GZ_hypervisor: 3.2.0.002.S0MP1_TC19SP2, Built: 10:53:53 Apr  8 2022
+trusty_app 0 uuid: 0xcab9de5f 0x61aa 0x40a8 0xb4aa 0xdad5cbc97732
+trusty_app 0 uuid: 0xd2c50855 0x6f2b 0x57ee 0x2db6 0x7c49944f30a0
+trusty_app 0 uuid: 0xfee67f9f 0xe1b1 0x4e3d 0x8455 0x47f601afef
+trusty_app 0 uuid: 0x27683bcd 0x75cf 0x458d 0x88f8 0xc1f9d77994cd
+trusty_app 0 uuid: 0xcea8706d 0x6cb4 0x49f3 0xb994 0x29e0e478bd29
+trusty_app 0 uuid: 0x1c1c3151 0xf04f 0x4012 0xbfd7 0x59ab76bc7912
+trusty_app 0 uuid: 0x17ea64b5 0x6f72 0x484a 0xa22 0x6310da836828
+trusty_app 0 uuid: 0x3888a8df 0x7c88 0x4454 0xbce3 0x24bf1021f08b
+trusty_app 0 uuid: 0xa4a160cf 0x1796 0x4224 0xb6a9 0x9cfdfbdd8e43
+trusty_app 0 uuid: 0x2acfd6ee 0x794 0x4677 0xa9a 0xe988f1e3290
+trusty_app 0 uuid: 0xe55bea0d 0x31c4 0x4fb8 0x8cf1 0x1bf7a915d4a2
+====> GZ (0)[    0.005379]INIT: cpu 0, calling hook 0x38010a84 (memlog) at level 0xb0000, flags 0x1
+====> GZ (0)[    0.005388]INIT: cpu 0, calling hook 0x3802e62c (mtcrypto_service) at level 0xb0000, flags 0x1
+====> GZ (0)[    0.005410]INIT: cpu 0, calling hook 0x3803885c (user_mm_syscall) at level 0xb0000, flags 0x1
+====> GZ (0)[    0.005416]INIT: cpu 0, calling hook 0x3803bb48 (trusty_mt_smcall) at level 0xb0000, flags 0x1
+Initializing MTK SMC handler
+====> GZ (0)[    0.005449]===============================================================================
+====> GZ (0)[    0.005452] Linux table root va=0x38289000, pa=0x87f889000 num_entries=64
+====> GZ (0)[    0.005456]===============================================================================
+====> GZ (0)[    0.005460]Addr 0000000000~003fffffff PA 0000000000~003fffffff 1GB [000:000]        attr(0x5)  rw(3)  sh(2)  af(1)  xn(1) pxn(0) type(0)
+====> GZ (0)[    0.005470]Addr 0040000000~023fffffff PA 0040000000~023fffffff 1GB [001:008]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(0)
+====> GZ (0)[    0.005479]Addr 0240000000~0fffffffff PA ----------~---------- 1GB [009:063]
+====> GZ (0)[    0.005483]===============================================================================
+====> GZ (0)[    0.005487]INIT: cpu 0, calling hook 0x38014bac (libtrusty_apps) at level 0xb0001, flags 0x1
+====> GZ (0)[    0.005495]INIT: cpu 0, calling hook 0x3800732c (disable_trace_init_after_bootup) at level 0xffffffff, flags 0x1
+====> GZ (0)[    0.005534]appid ====> 1
+====> GZ (0)[    0.005536]app:is_vmm=0, vmm_id=0x1
+trusty_app 0: code: start 0x00008000 end 0x00027260
+trusty_app 0: data: start 0x00028000 end 0x0002b000
+trusty_app 0: bss:                end 0x0002a568
+trusty_app 0: brk:  start 0x0002b000 end 0x0002f000
+trusty_app 0: entry 0x0000fdc4
+====> GZ (0)[    0.005640][mtee-server] 174: Init services!!!
+====> GZ (0)[    0.005652]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.005662][Echo-server] 129: <com.mediatek.geniezone.srv.echo> service init
+====> GZ (0)[    0.005676]===============================================================================
+====> GZ (0)[    0.005678] APP 1 table root va=0x382c5000, pa=0x87f8c5000 num_entries=1
+====> GZ (0)[    0.005682]===============================================================================
+====> GZ (0)[    0.005684]Addr 0000000000~003fffffff table(PA=087f8c8000)     1GB [000:000]
+====> GZ (0)[    0.005690]Addr 0000000000~00001fffff table(PA=087f8cc000)     2MB [000:000]
+====> GZ (0)[    0.005696]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.005703]Addr 0000008000~0000027fff PA 087f661000~087f680fff 4KB [008:039]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(1)
+====> GZ (0)[    0.005711]Addr 0000028000~000002afff PA 087f681000~087f683fff 4KB [040:042]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(1)
+====> GZ (0)[    0.005719]Addr 000002b000~000002efff PA 087f8cd000~087f8d0fff 4KB [043:046]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(1)
+====> GZ (0)[    0.005733]Addr 000002f000~00001fffff PA ----------~---------- 4KB [047:511]
+====> GZ (0)[    0.005739]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.005743]Addr 0007e00000~0007ffffff table(PA=087f8c9000)     2MB [063:063]
+====> GZ (0)[    0.005755]Addr 0007e00000~0007ffdfff PA ----------~---------- 4KB [000:509]
+====> GZ (0)[    0.005760]Addr 0007ffe000~0007ffffff PA 087f8c6000~087f8c7fff 4KB [510:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(1)
+====> GZ (0)[    0.005774]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.005778]===============================================================================
+====> GZ (0)[    0.005796]appid ====> 2
+====> GZ (0)[    0.005798]app:is_vmm=0, vmm_id=0x2
+trusty_app 1: code: start 0x00008000 end 0x0001c91c
+trusty_app 1: data: start 0x0001d000 end 0x0001f000
+trusty_app 1: bss:                end 0x0001e938
+trusty_app 1: brk:  start 0x0001f000 end 0x0002f000
+trusty_app 1: entry 0x0000da20
+====> GZ (0)[    0.005889]constructor: test_omp_init 
+====> GZ (0)[    0.005895][mtee_srv] 544: SEMAPHORE CREATE: init val = 0
+====> GZ (0)[    0.005901][mtee_srv] 544: SEMAPHORE CREATE: init val = 0
+====> GZ (0)[    0.005914][mtee-server] 174: Init services!!!
+====> GZ (0)[    0.005920]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.005928][GZ TEST] 92: [gz_test_init] <com.mediatek.geniezone.test> service init
+====> GZ (0)[    0.005934][GZ TEST] 570: try a malloc 4096
+====> GZ (0)[    0.005940][GZ TEST] 576: try b malloc 4096
+====> GZ (0)[    0.005945][GZ TEST] 583: try one core malloc 16384
+====> GZ (0)[    0.005950][GZ TEST] 591: try multi core malloc 16384
+====> GZ (0)[    0.005958]===============================================================================
+====> GZ (0)[    0.005960] APP 2 table root va=0x382d3000, pa=0x87f8d3000 num_entries=1
+====> GZ (0)[    0.005964]===============================================================================
+====> GZ (0)[    0.005966]Addr 0000000000~003fffffff table(PA=087f8d6000)     1GB [000:000]
+====> GZ (0)[    0.005972]Addr 0000000000~00001fffff table(PA=087f8da000)     2MB [000:000]
+====> GZ (0)[    0.005978]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.005984]Addr 0000008000~000001cfff PA 087f685000~087f699fff 4KB [008:028]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(2)
+====> GZ (0)[    0.005992]Addr 000001d000~000001efff PA 087f69a000~087f69bfff 4KB [029:030]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(2)
+====> GZ (0)[    0.006000]Addr 000001f000~000002efff PA 087f8db000~087f8eafff 4KB [031:046]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(2)
+====> GZ (0)[    0.006015]Addr 000002f000~00001fffff PA ----------~---------- 4KB [047:511]
+====> GZ (0)[    0.006021]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.006025]Addr 0007e00000~0007ffffff table(PA=087f8d7000)     2MB [063:063]
+====> GZ (0)[    0.006037]Addr 0007e00000~0007ffdfff PA ----------~---------- 4KB [000:509]
+====> GZ (0)[    0.006042]Addr 0007ffe000~0007ffffff PA 087f8d4000~087f8d5fff 4KB [510:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(2)
+====> GZ (0)[    0.006055]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.006060]===============================================================================
+====> GZ (0)[    0.006078]appid ====> 3
+====> GZ (0)[    0.006080]app:is_vmm=0, vmm_id=0x3
+trusty_app 2: code: start 0x00008000 end 0x0000e830
+trusty_app 2: data: start 0x0000f000 end 0x00011000
+trusty_app 2: bss:                end 0x00010a3c
+trusty_app 2: brk:  start 0x00011000 end 0x00015000
+trusty_app 2: entry 0x000094f4
+====> GZ (0)[    0.006156][[TIPC UT]] 343: Init unittest services!!!
+====> GZ (0)[    0.006163]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.006197]===============================================================================
+====> GZ (0)[    0.006200] APP 3 table root va=0x382ed000, pa=0x87f8ed000 num_entries=1
+====> GZ (0)[    0.006204]===============================================================================
+====> GZ (0)[    0.006206]Addr 0000000000~003fffffff table(PA=087f8f0000)     1GB [000:000]
+====> GZ (0)[    0.006211]Addr 0000000000~00001fffff table(PA=087f8f4000)     2MB [000:000]
+====> GZ (0)[    0.006217]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.006223]Addr 0000008000~000000efff PA 087f69d000~087f6a3fff 4KB [008:014]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(3)
+====> GZ (0)[    0.006231]Addr 000000f000~0000010fff PA 087f6a4000~087f6a5fff 4KB [015:016]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(3)
+====> GZ (0)[    0.006239]Addr 0000011000~0000014fff PA 087f8f5000~087f8f8fff 4KB [017:020]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(3)
+====> GZ (0)[    0.006253]Addr 0000015000~00001fffff PA ----------~---------- 4KB [021:511]
+====> GZ (0)[    0.006259]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.006263]Addr 0007e00000~0007ffffff table(PA=087f8f1000)     2MB [063:063]
+====> GZ (0)[    0.006275]Addr 0007e00000~0007ffdfff PA ----------~---------- 4KB [000:509]
+====> GZ (0)[    0.006280]Addr 0007ffe000~0007ffffff PA 087f8ee000~087f8effff 4KB [510:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(3)
+====> GZ (0)[    0.006293]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.006298]===============================================================================
+====> GZ (0)[    0.006309]appid ====> 4
+====> GZ (0)[    0.006311]app:is_vmm=0, vmm_id=0x4
+trusty_app 3: code: start 0x00008000 end 0x00012d60
+trusty_app 3: data: start 0x00013000 end 0x00015000
+trusty_app 3: bss:                end 0x000148d8
+trusty_app 3: brk:  start 0x00015000 end 0x0003d000
+trusty_app 3: entry 0x00009810
+====> GZ (0)[    0.006430][Kernel-server] 1207: start kernel service main
+====> GZ (0)[    0.006436][mtee-server] 174: Init services!!!
+====> GZ (0)[    0.006443]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.006452]===============================================================================
+====> GZ (0)[    0.006455] APP 4 table root va=0x382f9000, pa=0x87f8f9000 num_entries=1
+====> GZ (0)[    0.006458]===============================================================================
+====> GZ (0)[    0.006461]Addr 0000000000~003fffffff table(PA=087f8fc000)     1GB [000:000]
+====> GZ (0)[    0.006466]Addr 0000000000~00001fffff table(PA=087f900000)     2MB [000:000]
+====> GZ (0)[    0.006472]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.006478]Addr 0000008000~0000012fff PA 087f6a7000~087f6b1fff 4KB [008:018]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(4)
+====> GZ (0)[    0.006486]Addr 0000013000~0000014fff PA 087f6b2000~087f6b3fff 4KB [019:020]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(4)
+====> GZ (0)[    0.006495]Addr 0000015000~000003cfff PA 087f901000~087f928fff 4KB [021:060]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(4)
+====> GZ (0)[    0.006510]Addr 000003d000~00001fffff PA ----------~---------- 4KB [061:511]
+====> GZ (0)[    0.006515]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.006520]Addr 0007e00000~0007ffffff table(PA=087f8fd000)     2MB [063:063]
+====> GZ (0)[    0.006532]Addr 0007e00000~0007ffdfff PA ----------~---------- 4KB [000:509]
+====> GZ (0)[    0.006536]Addr 0007ffe000~0007ffffff PA 087f8fa000~087f8fbfff 4KB [510:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(4)
+====> GZ (0)[    0.006550]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.006554]===============================================================================
+====> GZ (0)[    0.006573]appid ====> 5
+====> GZ (0)[    0.006575]app:is_vmm=0, vmm_id=0x5
+trusty_app 4: code: start 0x00008000 end 0x00027f00
+trusty_app 4: data: start 0x00028000 end 0x0002a000
+trusty_app 4: bss:                end 0x00029c44
+trusty_app 4: brk:  start 0x0002a000 end 0x00054200
+trusty_app 4: entry 0x000080b4
+====> GZ (0)[    0.006714]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.006721]===============================================================================
+====> GZ (0)[    0.006723] APP 5 table root va=0x3832b000, pa=0x87f92b000 num_entries=1
+====> GZ (0)[    0.006727]===============================================================================
+====> GZ (0)[    0.006729]Addr 0000000000~003fffffff table(PA=087f930000)     1GB [000:000]
+====> GZ (0)[    0.006735]Addr 0000000000~00001fffff table(PA=087f934000)     2MB [000:000]
+====> GZ (0)[    0.006741]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.006747]Addr 0000008000~0000027fff PA 087f6b5000~087f6d4fff 4KB [008:039]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(5)
+====> GZ (0)[    0.006755]Addr 0000028000~0000029fff PA 087f6d5000~087f6d6fff 4KB [040:041]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(5)
+====> GZ (0)[    0.006764]Addr 000002a000~0000054fff PA 087f935000~087f95ffff 4KB [042:084]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(5)
+====> GZ (0)[    0.006778]Addr 0000055000~00001fffff PA ----------~---------- 4KB [085:511]
+====> GZ (0)[    0.006784]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.006788]Addr 0007e00000~0007ffffff table(PA=087f931000)     2MB [063:063]
+====> GZ (0)[    0.006800]Addr 0007e00000~0007ffbfff PA ----------~---------- 4KB [000:507]
+====> GZ (0)[    0.006805]Addr 0007ffc000~0007ffffff PA 087f92c000~087f92ffff 4KB [508:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(5)
+====> GZ (0)[    0.006819]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.006823]===============================================================================
+====> GZ (0)[    0.006843]appid ====> 6
+====> GZ (0)[    0.006844]app:is_vmm=0, vmm_id=0x6
+trusty_app 5: code: start 0x00008000 end 0x0001af82
+trusty_app 5: data: start 0x0001b000 end 0x0001c000
+trusty_app 5: bss:                end 0x0001b67c
+trusty_app 5: brk:  start 0x0001c000 end 0x0002c000
+trusty_app 5: entry 0x00008284
+====> GZ (0)[    0.006938]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.006944]===============================================================================
+====> GZ (0)[    0.006946] APP 6 table root va=0x38362000, pa=0x87f962000 num_entries=1
+====> GZ (0)[    0.006950]===============================================================================
+====> GZ (0)[    0.006952]Addr 0000000000~003fffffff table(PA=087f965000)     1GB [000:000]
+====> GZ (0)[    0.006958]Addr 0000000000~00001fffff table(PA=087f969000)     2MB [000:000]
+====> GZ (0)[    0.006964]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.006970]Addr 0000008000~000001afff PA 087f6d8000~087f6eafff 4KB [008:026]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(6)
+====> GZ (0)[    0.006978]Addr 000001b000~000001bfff PA 087f6eb000~087f6ebfff 4KB [027:027]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(6)
+====> GZ (0)[    0.006986]Addr 000001c000~000002bfff PA 087f96a000~087f979fff 4KB [028:043]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(6)
+====> GZ (0)[    0.007000]Addr 000002c000~00001fffff PA ----------~---------- 4KB [044:511]
+====> GZ (0)[    0.007006]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.007011]Addr 0007e00000~0007ffffff table(PA=087f966000)     2MB [063:063]
+====> GZ (0)[    0.007023]Addr 0007e00000~0007ffdfff PA ----------~---------- 4KB [000:509]
+====> GZ (0)[    0.007027]Addr 0007ffe000~0007ffffff PA 087f963000~087f964fff 4KB [510:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(6)
+====> GZ (0)[    0.007041]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.007045]===============================================================================
+====> GZ (0)[    0.007066]appid ====> 7
+====> GZ (0)[    0.007067]app:is_vmm=0, vmm_id=0x7
+trusty_app 6: code: start 0x00008000 end 0x00015210
+trusty_app 6: data: start 0x00016000 end 0x00019000
+trusty_app 6: bss:                end 0x00018d7c
+trusty_app 6: brk:  start 0x00019000 end 0x0001d000
+trusty_app 6: entry 0x000080fc
+====> GZ (0)[    0.007152][mtee-server] 174: Init services!!!
+====> GZ (0)[    0.007160]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.007167][MTEE_APP_MGMT] 60: <com.mediatek.geniezone.srv.DL> service init
+====> GZ (0)[    0.007172]===============================================================================
+====> GZ (0)[    0.007175] APP 7 table root va=0x3837c000, pa=0x87f97c000 num_entries=1
+====> GZ (0)[    0.007178]===============================================================================
+====> GZ (0)[    0.007180]Addr 0000000000~003fffffff table(PA=087f97f000)     1GB [000:000]
+====> GZ (0)[    0.007186]Addr 0000000000~00001fffff table(PA=087f983000)     2MB [000:000]
+====> GZ (0)[    0.007192]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.007198]Addr 0000008000~0000015fff PA 087f6ed000~087f6fafff 4KB [008:021]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(7)
+====> GZ (0)[    0.007206]Addr 0000016000~0000018fff PA 087f6fb000~087f6fdfff 4KB [022:024]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(7)
+====> GZ (0)[    0.007214]Addr 0000019000~000001cfff PA 087f984000~087f987fff 4KB [025:028]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(7)
+====> GZ (0)[    0.007229]Addr 000001d000~00001fffff PA ----------~---------- 4KB [029:511]
+====> GZ (0)[    0.007234]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.007239]Addr 0007e00000~0007ffffff table(PA=087f980000)     2MB [063:063]
+====> GZ (0)[    0.007251]Addr 0007e00000~0007ffdfff PA ----------~---------- 4KB [000:509]
+====> GZ (0)[    0.007255]Addr 0007ffe000~0007ffffff PA 087f97d000~087f97efff 4KB [510:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(7)
+====> GZ (0)[    0.007269]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.007273]===============================================================================
+====> GZ (0)[    0.007294]appid ====> 8
+====> GZ (0)[    0.007296]app:is_vmm=0, vmm_id=0x8
+trusty_app 7: code: start 0x00008000 end 0x000a7ca8
+trusty_app 7: data: start 0x000a8000 end 0x000b2000
+trusty_app 7: bss:                end 0x000b10e0
+trusty_app 7: brk:  start 0x000b2000 end 0x000ba000
+trusty_app 7: entry 0x000081a0
+====> GZ (0)[    0.007458][mtee-server] 174: Init services!!!
+====> GZ (0)[    0.007466]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.007474][CMDQ] 52: [gz_cmdq_init] <com.mediatek.geniezone.cmdq> service init
+====> GZ (0)[    0.007479][CMDQ] 673: [tz]-->init: core
+====> GZ (0)[    0.007487][CMDQ] 181: [tz][cmdq_tz_map_physical_addr] ret:0 pa:0x10228000 va:0x0 size:4096
+====> GZ (0)[    0.007493][CMDQ] 181: [tz][cmdq_tz_map_physical_addr] ret:0 pa:0x10031000 va:0x0 size:4096
+====> GZ (0)[    0.007499][CMDQ] 181: [tz][cmdq_tz_map_physical_addr] ret:0 pa:0x10031000 va:0x0 size:4096
+====> GZ (0)[    0.007510][CMDQ] 729: [tz]<--init: core done
+====> GZ (0)[    0.007514]===============================================================================
+====> GZ (0)[    0.007517] APP 8 table root va=0x3838a000, pa=0x87f98a000 num_entries=1
+====> GZ (0)[    0.007520]===============================================================================
+====> GZ (0)[    0.007522]Addr 0000000000~003fffffff table(PA=087f98f000)     1GB [000:000]
+====> GZ (0)[    0.007528]Addr 0000000000~00001fffff table(PA=087f993000)     2MB [000:000]
+====> GZ (0)[    0.007533]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.007543]Addr 0000008000~00000a7fff PA 087f6ff000~087f79efff 4KB [008:167]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(8)
+====> GZ (0)[    0.007551]Addr 00000a8000~00000b1fff PA 087f79f000~087f7a8fff 4KB [168:177]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(8)
+====> GZ (0)[    0.007559]Addr 00000b2000~00000b9fff PA 087f994000~087f99bfff 4KB [178:185]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(8)
+====> GZ (0)[    0.007572]Addr 00000ba000~00001fffff PA ----------~---------- 4KB [186:511]
+====> GZ (0)[    0.007577]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.007582]Addr 0007e00000~0007ffffff table(PA=087f990000)     2MB [063:063]
+====> GZ (0)[    0.007594]Addr 0007e00000~0007ffbfff PA ----------~---------- 4KB [000:507]
+====> GZ (0)[    0.007598]Addr 0007ffc000~0007ffffff PA 087f98b000~087f98efff 4KB [508:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(8)
+====> GZ (0)[    0.007612]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.007616]===============================================================================
+====> GZ (0)[    0.007637]appid ====> 9
+====> GZ (0)[    0.007639]app:is_vmm=0, vmm_id=0x9
+trusty_app 8: code: start 0x00008000 end 0x00019ce8
+trusty_app 8: data: start 0x0001a000 end 0x0001e000
+trusty_app 8: bss:                end 0x0001d5f8
+trusty_app 8: brk:  start 0x0001e000 end 0x00026000
+trusty_app 8: entry 0x000081a0
+====> GZ (0)[    0.007733][mtee-server] 174: Init services!!!
+====> GZ (0)[    0.007741]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.007748][ISP_HA] 17: <com.mediatek.geniezone.isp> service init
+====> GZ (0)[    0.007753]===============================================================================
+====> GZ (0)[    0.007755] APP 9 table root va=0x3839e000, pa=0x87f99e000 num_entries=1
+====> GZ (0)[    0.007759]===============================================================================
+====> GZ (0)[    0.007761]Addr 0000000000~003fffffff table(PA=087f9a3000)     1GB [000:000]
+====> GZ (0)[    0.007767]Addr 0000000000~00001fffff table(PA=087f9a7000)     2MB [000:000]
+====> GZ (0)[    0.007773]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.007778]Addr 0000008000~0000019fff PA 087f7aa000~087f7bbfff 4KB [008:025]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(9)
+====> GZ (0)[    0.007786]Addr 000001a000~000001dfff PA 087f7bc000~087f7bffff 4KB [026:029]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(9)
+====> GZ (0)[    0.007795]Addr 000001e000~0000025fff PA 087f9a8000~087f9affff 4KB [030:037]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(9)
+====> GZ (0)[    0.007809]Addr 0000026000~00001fffff PA ----------~---------- 4KB [038:511]
+====> GZ (0)[    0.007815]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.007819]Addr 0007e00000~0007ffffff table(PA=087f9a4000)     2MB [063:063]
+====> GZ (0)[    0.007831]Addr 0007e00000~0007ffbfff PA ----------~---------- 4KB [000:507]
+====> GZ (0)[    0.007836]Addr 0007ffc000~0007ffffff PA 087f99f000~087f9a2fff 4KB [508:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(9)
+====> GZ (0)[    0.007850]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.007854]===============================================================================
+====> GZ (0)[    0.007875]appid ====> 10
+====> GZ (0)[    0.007877]app:is_vmm=0, vmm_id=0xa
+trusty_app 9: code: start 0x00008000 end 0x00010d68
+trusty_app 9: data: start 0x00011000 end 0x00013000
+trusty_app 9: bss:                end 0x000129a8
+trusty_app 9: brk:  start 0x00013000 end 0x00017000
+trusty_app 9: entry 0x000081c4
+====> GZ (0)[    0.007958][MTEE_SENINF] 213: [main] start imgsensor service main
+====> GZ (0)[    0.007964][mtee-server] 174: Init services!!!
+====> GZ (0)[    0.007972]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.007979][MTEE_SENINF] 61: [imgsensor_ha_init] <com.mediatek.geniezone.srv.imgsensor> secure camera service init
+====> GZ (0)[    0.007984]===============================================================================
+====> GZ (0)[    0.007986] APP 10 table root va=0x383b2000, pa=0x87f9b2000 num_entries=1
+====> GZ (0)[    0.007990]===============================================================================
+====> GZ (0)[    0.007992]Addr 0000000000~003fffffff table(PA=087f9b5000)     1GB [000:000]
+====> GZ (0)[    0.007998]Addr 0000000000~00001fffff table(PA=087f9b9000)     2MB [000:000]
+====> GZ (0)[    0.008003]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.008009]Addr 0000008000~0000010fff PA 087f7c1000~087f7c9fff 4KB [008:016]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(10)
+====> GZ (0)[    0.008017]Addr 0000011000~0000012fff PA 087f7ca000~087f7cbfff 4KB [017:018]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(10)
+====> GZ (0)[    0.008026]Addr 0000013000~0000016fff PA 087f9ba000~087f9bdfff 4KB [019:022]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(10)
+====> GZ (0)[    0.008040]Addr 0000017000~00001fffff PA ----------~---------- 4KB [023:511]
+====> GZ (0)[    0.008046]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.008051]Addr 0007e00000~0007ffffff table(PA=087f9b6000)     2MB [063:063]
+====> GZ (0)[    0.008063]Addr 0007e00000~0007ffdfff PA ----------~---------- 4KB [000:509]
+====> GZ (0)[    0.008067]Addr 0007ffe000~0007ffffff PA 087f9b3000~087f9b4fff 4KB [510:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(10)
+====> GZ (0)[    0.008081]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.008085]===============================================================================
+====> GZ (0)[    0.008106]appid ====> 11
+====> GZ (0)[    0.008108]app:is_vmm=0, vmm_id=0xb
+trusty_app 10: code: start 0x00008000 end 0x00013ca0
+trusty_app 10: data: start 0x00014000 end 0x00017000
+trusty_app 10: bss:                end 0x000165f8
+trusty_app 10: brk:  start 0x00017000 end 0x0001b000
+trusty_app 10: entry 0x00008130
+====> GZ (0)[    0.008191][mtee-server] 174: Init services!!!
+====> GZ (0)[    0.008199]rebuild_hset_all:261: Rebuilding all handles set
+====> GZ (0)[    0.008207][[LIB]M4U ] 89: [m4u_sec_ha_init] <com.mediatek.geniezone.srv.m4u_sec_ha> service init(0)
+====> GZ (0)[    0.008218][[LIB]M4U ] 235: [m4u_sec_core_init] <com.mediatek.geniezone.srv.m4u_sec_core> service init(0)
+====> GZ (0)[    0.008223]===============================================================================
+====> GZ (0)[    0.008225] APP 11 table root va=0x383c0000, pa=0x87f9c0000 num_entries=1
+====> GZ (0)[    0.008228]===============================================================================
+====> GZ (0)[    0.008231]Addr 0000000000~003fffffff table(PA=087f9c2000)     1GB [000:000]
+====> GZ (0)[    0.008236]Addr 0000000000~00001fffff table(PA=087f9c6000)     2MB [000:000]
+====> GZ (0)[    0.008242]Addr 0000000000~0000007fff PA ----------~---------- 4KB [000:007]
+====> GZ (0)[    0.008247]Addr 0000008000~0000013fff PA 087f7cd000~087f7d8fff 4KB [008:019]        attr(0xf)  rw(1)  sh(3)  af(1)  xn(0) pxn(0) type(11)
+====> GZ (0)[    0.008256]Addr 0000014000~0000016fff PA 087f7d9000~087f7dbfff 4KB [020:022]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(11)
+====> GZ (0)[    0.008264]Addr 0000017000~000001afff PA 087f9c7000~087f9cafff 4KB [023:026]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(11)
+====> GZ (0)[    0.008279]Addr 000001b000~00001fffff PA ----------~---------- 4KB [027:511]
+====> GZ (0)[    0.008284]Addr 0000200000~0007dfffff PA ----------~---------- 2MB [001:062]
+====> GZ (0)[    0.008288]Addr 0007e00000~0007ffffff table(PA=087f9c3000)     2MB [063:063]
+====> GZ (0)[    0.008300]Addr 0007e00000~0007ffefff PA ----------~---------- 4KB [000:510]
+====> GZ (0)[    0.008305]Addr 0007fff000~0007ffffff PA 087f9c1000~087f9c1fff 4KB [511:511]        attr(0xf)  rw(3)  sh(3)  af(1)  xn(0) pxn(0) type(11)
+====> GZ (0)[    0.008319]Addr 0008000000~003fffffff PA ----------~---------- 2MB [064:511]
+====> GZ (0)[    0.008323]===============================================================================
+====> GZ (0)[    7.076805]for launch linux, route smc to el3, cmd=0x82000115
+====> GZ (0)[    7.076994]back to gz, launch linux
+====> GZ (0)[    7.076996]trap lk2linux smc back!
+====> GZ (0)[    7.076998]boot linux-64 via EL2, pc=0x40080000, x0=0x47c80000, x1=0x0, mode=0x3c5
+Successfully open fdt at 0x42000
+====> GZ (7)[    0.665316]sm_get_api_version:258: lock api version 5, MTEE 0
+====> GZ (7)[    0.665325]tipc_dev_probe:991: tipc_dev_probe: Multiple vqueue support:1, txvq num:1, rxvq num:8
+====> GZ (6)[   11.233124][mtee-server] 298: server accept! connect it!
+====> GZ (6)[   11.233133][CMDQ] 59: [gz_cmdq_port] <com.mediatek.geniezone.cmdq> service port connected (channel = 1001)
+====> GZ (6)[   11.233222][mtee-server] 298: server accept! connect it!
+====> GZ (6)[   11.233318]GZT svc-> session 0 com.mediatek.geniezone.srv.sys 303069139
+====> GZ (6)[   11.233323][Kernel-server] 201: MTEE SYSTEM SERVICE server: session=0x0, command=0x1, paramTypes=0x204
+====> GZ (6)[   11.233326][Kernel-server] 215: TZCMD_SYS_SESSION_CREATE(0x1): com.mediatek.geniezone.cmdq
+====> GZ (6)[   11.233329][session] 102: [com.mediatek.geniezone.cmdq] se: <null>
+====> GZ (6)[   11.233332][mtee_srv] 221: session create: success
+====> GZ (6)[   11.233336][Kernel-server] 224: TZCMD_SYS_SESSION_CREATE(0x1): com.mediatek.geniezone.cmdq --- OK (session=6)
+====> GZ (6)[   11.233342]GZT svc-< session 0 com.mediatek.geniezone.srv.sys 303069455 command: 0x1, paramTypes: 0x204
+====> GZ (6)[   11.233346][mtee-server] 347: param[0]: 0x13338 0x1c param[1]: 0x6 0x0 
+====> GZ (6)[   11.233428][mtee-server] 298: server accept! connect it!
+====> GZ (6)[   11.233471]GZT svc-> session 0 com.mediatek.geniezone.srv.sys 303071147
+====> GZ (6)[   11.233475][Kernel-server] 201: MTEE SYSTEM SERVICE server: session=0x0, command=0x1, paramTypes=0x204
+====> GZ (6)[   11.233478][Kernel-server] 215: TZCMD_SYS_SESSION_CREATE(0x1): com.mediatek.geniezone.srv.mem
+====> GZ (6)[   11.233480][session] 102: [com.mediatek.geniezone.srv.mem] se: <null>
+====> GZ (6)[   11.233482][mtee_srv] 221: session create: success
+====> GZ (6)[   11.233486][Kernel-server] 224: TZCMD_SYS_SESSION_CREATE(0x1): com.mediatek.geniezone.srv.mem --- OK (session=7)
+====> GZ (6)[   11.233491]GZT svc-< session 0 com.mediatek.geniezone.srv.sys 303071399 command: 0x1, paramTypes: 0x204
+====> GZ (6)[   11.233495][mtee-server] 347: param[0]: 0x13338 0x1f param[1]: 0x7 0x0 
+====> GZ (6)[   11.233568]GZT svc-> session 7 com.mediatek.geniezone.srv.mem 303072411
+====> GZ (6)[   11.233573][Kernel-server] 326: MTEE MEM SERVICE server: session=0x7, command=0x0, paramTypes=0x3040404
+====> GZ (6)[   11.233576][Kernel-server] 336: TZCMD_MEM_SHAREDMEM_REG(0x0) ---
+====> GZ (6)[   11.233580][Kernel-server] 1009: numOfPA=0x15, page_size_unit=0x1000, new_numOfPA=0x15
+====> GZ (6)[   11.233583][Kernel-server] 1010: [do_register_shm] round = 0, numOfPA = 0x15 
+====> GZ (6)[   11.233587][Kernel-server] 1032: shm_total_size=0x15000,page_size_unit=0x1000, malloc_size=0xa8
+====> GZ (6)[   11.233590][Kernel-server] 1080: receive round = 0. begin to receive send data. 
+====> GZ (6)[   11.233593][Kernel-server] 948: ====> param[0].mem.size = (0xc) .  
+====> GZ (6)[   11.233596] [Kernel-server] 955: ====> param[0].mem.size = (0xc) [# of entries=1].  
+====> GZ (6)[   11.233599] [Kernel-server] 948: ====> param[1].mem.size = (0x0) .  
+====> GZ (6)[   11.233602] [Kernel-server] 948: ====> param[2].mem.size = (0x0) .  
+====> GZ (6)[   11.233605] [Kernel-server] 340: TZCMD_MEM_SHAREDMEM_REG(0x0) --- OK
+====> GZ (6)[   11.233610]GZT svc-< session 7 com.mediatek.geniezone.srv.mem 303072948 command: 0x0, paramTypes: 0x3040404
+====> GZ (6)[   11.233614][mtee-server] 347: param[0]: 0x13338 0xc param[1]: 0x13344 0x0 param[2]: 0x13344 0x0 param[3]: 0x0 0x15 
+====> GZ (6)[   11.233659]GZT svc-> session 7 com.mediatek.geniezone.srv.mem 303073583
+====> GZ (6)[   11.233662][Kernel-server] 326: MTEE MEM SERVICE server: session=0x7, command=0x0, paramTypes=0x3040404
+====> GZ (6)[   11.233665][Kernel-server] 336: TZCMD_MEM_SHAREDMEM_REG(0x0) ---
+====> GZ (6)[   11.233668][Kernel-server] 1014: [do_register_shm] round = -99, region_id = 0x0 
+====> GZ (6)[   11.233671][Kernel-server] 1083: receive round = -99. stop send. 
+====> GZ (6)[   11.233674][MTEE MEM SRV] 2013: [Reg shmem(0x5)]: pa=0x1e81c0000, size=0x15000, region_id=0x0
+====> GZ (6)[   11.233678][MTEE MEM SRV] 2038: mem_param->size:0x15000, page_size_unit:0x1000, shm_param.mmuTable[0](PA)=0x1e81c0000 
+====> GZ (6)[   11.233682][MTEE MEM SRV] 2062: register shared memory(size=86016) OK
+====> GZ (6)[   11.233685][Kernel-server] 1104: [do_register_shm]return shm_handle = 0x8 
+====> GZ (6)[   11.233689] [Kernel-server] 107: [free_state]get_state, session = 7
+====> GZ (6)[   11.233692][mtee_srv] 239: session register resource: success
+====> GZ (6)[   11.233695][Kernel-server] 340: TZCMD_MEM_SHAREDMEM_REG(0x0) --- OK
+====> GZ (6)[   11.233699]GZT svc-< session 7 com.mediatek.geniezone.srv.mem 303074108 command: 0x0, paramTypes: 0x3040404
+====> GZ (6)[   11.233703][mtee-server] 347: param[0]: 0x13338 0x0 param[1]: 0x13338 0x0 param[2]: 0x13338 0x0 param[3]: 0x8 0x0 
+====> GZ (6)[   11.234091]GZT svc-> session 7 com.mediatek.geniezone.srv.mem 303079167
+====> GZ (6)[   11.234097][Kernel-server] 326: MTEE MEM SERVICE server: session=0x7, command=0x0, paramTypes=0x3040404
+====> GZ (6)[   11.234100][Kernel-server] 336: TZCMD_MEM_SHAREDMEM_REG(0x0) ---
+====> GZ (6)[   11.234103][Kernel-server] 1009: numOfPA=0x125, page_size_unit=0x1000, new_numOfPA=0x125
+====> GZ (6)[   11.234106][Kernel-server] 1010: [do_register_shm] round = 0, numOfPA = 0x125 
+====> GZ (6)[   11.234110][Kernel-server] 1032: shm_total_size=0x125000,page_size_unit=0x1000, malloc_size=0x928
+====> GZ (6)[   11.234113][Kernel-server] 1080: receive round = 0. begin to receive send data. 
+====> GZ (6)[   11.234116][Kernel-server] 948: ====> param[0].mem.size = (0xc) .  
+====> GZ (6)[   11.234120] [Kernel-server] 955: ====> param[0].mem.size = (0xc) [# of entries=1].  
+====> GZ (6)[   11.234124] [Kernel-server] 948: ====> param[1].mem.size = (0x0) .  
+====> GZ (6)[   11.234127] [Kernel-server] 948: ====> param[2].mem.size = (0x0) .  
+====> GZ (6)[   11.234130] [Kernel-server] 340: TZCMD_MEM_SHAREDMEM_REG(0x0) --- OK
+====> GZ (6)[   11.234135]GZT svc-< session 7 com.mediatek.geniezone.srv.mem 303079775 command: 0x0, paramTypes: 0x3040404
+====> GZ (6)[   11.234140][mtee-server] 347: param[0]: 0x13338 0xc param[1]: 0x13344 0x0 param[2]: 0x13344 0x0 param[3]: 0x0 0x125 
+====> GZ (6)[   11.234190]GZT svc-> session 7 com.mediatek.geniezone.srv.mem 303080487
+====> GZ (6)[   11.234193][Kernel-server] 326: MTEE MEM SERVICE server: session=0x7, command=0x0, paramTypes=0x3040404
+====> GZ (6)[   11.234196][Kernel-server] 336: TZCMD_MEM_SHAREDMEM_REG(0x0) ---
+====> GZ (6)[   11.234199][Kernel-server] 1014: [do_register_shm] round = -99, region_id = 0x0 
+====> GZ (6)[   11.234203][Kernel-server] 1083: receive round = -99. stop send. 
+====> GZ (6)[   11.234205][MTEE MEM SRV] 2013: [Reg shmem(0x5)]: pa=0x1e8200000, size=0x125000, region_id=0x0
+====> GZ (6)[   11.234211][MTEE MEM SRV] 2038: mem_param->size:0x125000, page_size_unit:0x1000, shm_param.mmuTable[0](PA)=0x1e8200000 
+====> GZ (6)[   11.234215][MTEE MEM SRV] 2062: register shared memory(size=1200128) OK
+====> GZ (6)[   11.234219][Kernel-server] 1104: [do_register_shm]return shm_handle = 0x9 
+====> GZ (6)[   11.234222] [Kernel-server] 107: [free_state]get_state, session = 7
+====> GZ (6)[   11.234225][mtee_srv] 239: session register resource: success
+====> GZ (6)[   11.234228][Kernel-server] 340: TZCMD_MEM_SHAREDMEM_REG(0x0) --- OK
+====> GZ (6)[   11.234233]GZT svc-< session 7 com.mediatek.geniezone.srv.mem 303081044 command: 0x0, paramTypes: 0x3040404
+====> GZ (6)[   11.234237][mtee-server] 347: param[0]: 0x13338 0x0 param[1]: 0x13338 0x0 param[2]: 0x13338 0x0 param[3]: 0x9 0x0 
+====> GZ (6)[   11.234363]GZT svc-> session 7 com.mediatek.geniezone.srv.mem 303082732
+====> GZ (6)[   11.234368][Kernel-server] 326: MTEE MEM SERVICE server: session=0x7, command=0x0, paramTypes=0x3040404
+====> GZ (6)[   11.234371][Kernel-server] 336: TZCMD_MEM_SHAREDMEM_REG(0x0) ---
+====> GZ (6)[   11.234374][Kernel-server] 1009: numOfPA=0x80, page_size_unit=0x1000, new_numOfPA=0x80
+====> GZ (6)[   11.234377][Kernel-server] 1010: [do_register_shm] round = 0, numOfPA = 0x80 
+====> GZ (6)[   11.234380][Kernel-server] 1032: shm_total_size=0x80000,page_size_unit=0x1000, malloc_size=0x400
+====> GZ (6)[   11.234384][Kernel-server] 1080: receive round = 0. begin to receive send data. 
+====> GZ (6)[   11.234387][Kernel-server] 948: ====> param[0].mem.size = (0xc) .  
+====> GZ (6)[   11.234390] [Kernel-server] 955: ====> param[0].mem.size = (0xc) [# of entries=1].  
+====> GZ (6)[   11.234394] [Kernel-server] 948: ====> param[1].mem.size = (0x0) .  
+====> GZ (6)[   11.234397] [Kernel-server] 948: ====> param[2].mem.size = (0x0) .  
+====> GZ (6)[   11.234400] [Kernel-server] 340: TZCMD_MEM_SHAREDMEM_REG(0x0) --- OK
+====> GZ (6)[   11.234404]GZT svc-< session 7 com.mediatek.geniezone.srv.mem 303083275 command: 0x0, paramTypes: 0x3040404
+====> GZ (6)[   11.234408][mtee-server] 347: param[0]: 0x13338 0xc param[1]: 0x13344 0x0 param[2]: 0x13344 0x0 param[3]: 0x0 0x80 
+====> GZ (6)[   11.234456]GZT svc-> session 7 com.mediatek.geniezone.srv.mem 303083948
+====> GZ (6)[   11.234459][Kernel-server] 326: MTEE MEM SERVICE server: session=0x7, command=0x0, paramTypes=0x3040404
+====> GZ (6)[   11.234462][Kernel-server] 336: TZCMD_MEM_SHAREDMEM_REG(0x0) ---
+====> GZ (6)[   11.234466][Kernel-server] 1014: [do_register_shm] round = -99, region_id = 0x0 
+====> GZ (6)[   11.234469][Kernel-server] 1083: receive round = -99. stop send. 
+====> GZ (6)[   11.234472][MTEE MEM SRV] 2013: [Reg shmem(0x5)]: pa=0x1e2000000, size=0x80000, region_id=0x0
+====> GZ (6)[   11.234476][MTEE MEM SRV] 2038: mem_param->size:0x80000, page_size_unit:0x1000, shm_param.mmuTable[0](PA)=0x1e2000000 
+====> GZ (6)[   11.234480][MTEE MEM SRV] 2062: register shared memory(size=524288) OK
+====> GZ (6)[   11.234484][Kernel-server] 1104: [do_register_shm]return shm_handle = 0xa 
+====> GZ (6)[   11.234487] [Kernel-server] 107: [free_state]get_state, session = 7
+====> GZ (6)[   11.234490][mtee_srv] 239: session register resource: success
+====> GZ (6)[   11.234493][Kernel-server] 340: TZCMD_MEM_SHAREDMEM_REG(0x0) --- OK
+====> GZ (6)[   11.234498]GZT svc-< session 7 com.mediatek.geniezone.srv.mem 303084491 command: 0x0, paramTypes: 0x3040404
+====> GZ (6)[   11.234502][mtee-server] 347: param[0]: 0x13338 0x0 param[1]: 0x13338 0x0 param[2]: 0x13338 0x0 param[3]: 0xa 0x0 
+====> GZ (6)[ 3294.519531][mtee-server] 298: server accept! connect it!
+====> GZ (6)[ 3294.519638]GZT svc-> session 0 com.mediatek.geniezone.srv.sys 42985791300
+====> GZ (6)[ 3294.519644][Kernel-server] 201: MTEE SYSTEM SERVICE server: session=0x0, command=0x1, paramTypes=0x204
+====> GZ (6)[ 3294.519648][Kernel-server] 215: TZCMD_SYS_SESSION_CREATE(0x1): com.mediatek.geniezone.srv.mem
+====> GZ (6)[ 3294.519652][session] 102: [com.mediatek.geniezone.srv.mem] se: <null>
+====> GZ (6)[ 3294.519655][mtee_srv] 221: session create: success
+====> GZ (6)[ 3294.519660][Kernel-server] 224: TZCMD_SYS_SESSION_CREATE(0x1): com.mediatek.geniezone.srv.mem --- OK (session=11)
+====> GZ (6)[ 3294.519666]GZT svc-< session 0 com.mediatek.geniezone.srv.sys 42985791664 command: 0x1, paramTypes: 0x204
+====> GZ (6)[ 3294.519670][mtee-server] 347: param[0]: 0x13338 0x1f param[1]: 0xb 0x0 
+====> GZ (6)[ 3294.519753]GZT svc-> session 11 com.mediatek.geniezone.srv.mem 42985792807
+====> GZ (6)[ 3294.519757][Kernel-server] 326: MTEE MEM SERVICE server: session=0xb, command=0x0, paramTypes=0x3040404
+====> GZ (6)[ 3294.519761][Kernel-server] 336: TZCMD_MEM_SHAREDMEM_REG(0x0) ---
+====> GZ (6)[ 3294.519764][Kernel-server] 1009: numOfPA=0x1, page_size_unit=0x1000, new_numOfPA=0x1
+====> GZ (6)[ 3294.519768][Kernel-server] 1010: [do_register_shm] round = 0, numOfPA = 0x1 
+====> GZ (6)[ 3294.519772][Kernel-server] 1032: shm_total_size=0x1000,page_size_unit=0x1000, malloc_size=0x8
+====> GZ (6)[ 3294.519776][Kernel-server] 1080: receive round = 0. begin to receive send data. 
+====> GZ (6)[ 3294.519779][Kernel-server] 948: ====> param[0].mem.size = (0xc) .  
+====> GZ (6)[ 3294.519782] [Kernel-server] 955: ====> param[0].mem.size = (0xc) [# of entries=1].  
+====> GZ (6)[ 3294.519785] [Kernel-server] 948: ====> param[1].mem.size = (0x0) .  
+====> GZ (6)[ 3294.519788] [Kernel-server] 948: ====> param[2].mem.size = (0x0) .  
+====> GZ (6)[ 3294.519791] [Kernel-server] 340: TZCMD_MEM_SHAREDMEM_REG(0x0) --- OK
+====> GZ (6)[ 3294.519797]GZT svc-< session 11 com.mediatek.geniezone.srv.mem 42985793372 command: 0x0, paramTypes: 0x3040404
+====> GZ (6)[ 3294.519801][mtee-server] 347: param[0]: 0x13338 0xc param[1]: 0x13344 0x0 param[2]: 0x13344 0x0 param[3]: 0x0 0x1 
+====> GZ (6)[ 3294.519976]GZT svc-> session 11 com.mediatek.geniezone.srv.mem 42985795683
+====> GZ (6)[ 3294.519981][Kernel-server] 326: MTEE MEM SERVICE server: session=0xb, command=0x0, paramTypes=0x3040404
+====> GZ (6)[ 3294.519985][Kernel-server] 336: TZCMD_MEM_SHAREDMEM_REG(0x0) ---
+====> GZ (6)[ 3294.519988][Kernel-server] 1014: [do_register_shm] round = -99, region_id = 0x0 
+====> GZ (6)[ 3294.519992][Kernel-server] 1083: receive round = -99. stop send. 
+====> GZ (6)[ 3294.519995][MTEE MEM SRV] 2013: [Reg shmem(0x5)]: pa=0xce58e000, size=0x1000, region_id=0x0
+====> GZ (6)[ 3294.519999][MTEE MEM SRV] 2038: mem_param->size:0x1000, page_size_unit:0x1000, shm_param.mmuTable[0](PA)=0xce58e000 
+====> GZ (6)[ 3294.520003][MTEE MEM SRV] 2062: register shared memory(size=4096) OK
+====> GZ (6)[ 3294.520006][Kernel-server] 1104: [do_register_shm]return shm_handle = 0xc 
+====> GZ (6)[ 3294.520010] [Kernel-server] 107: [free_state]get_state, session = 11
+====> GZ (6)[ 3294.520014][mtee_srv] 239: session register resource: success
+====> GZ (6)[ 3294.520017][Kernel-server] 340: TZCMD_MEM_SHAREDMEM_REG(0x0) --- OK
+====> GZ (6)[ 3294.520023]GZT svc-< session 11 com.mediatek.geniezone.srv.mem 42985796311 command: 0x0, paramTypes: 0x3040404
+====> GZ (6)[ 3294.520027][mtee-server] 347: param[0]: 0x13338 0x0 param[1]: 0x13338 0x0 param[2]: 0x13338 0x0 param[3]: 0xc 0x0 
+====> GZ (6)[ 3294.520271][mtee-server] 298: server accept! connect it!
+====> GZ (6)[ 3294.520279][[LIB]M4U ] 95: [m4u_sec_ha_port] <com.mediatek.geniezone.srv.m4u_sec_ha> service port connected (channel = 1002)
+====> GZ (6)[ 3294.520354]GZT svc-> session 0 com.mediatek.geniezone.srv.sys 42985800599
+====> GZ (6)[ 3294.520359][Kernel-server] 201: MTEE SYSTEM SERVICE server: session=0x0, command=0x1, paramTypes=0x204
+====> GZ (6)[ 3294.520362][Kernel-server] 215: TZCMD_SYS_SESSION_CREATE(0x1): com.mediatek.geniezone.srv.m4u_sec_ha
+====> GZ (6)[ 3294.520365][session] 102: [com.mediatek.geniezone.srv.m4u_s] se: <null>
+====> GZ (6)[ 3294.520368][mtee_srv] 221: session create: success
+====> GZ (6)[ 3294.520372][Kernel-server] 224: TZCMD_SYS_SESSION_CREATE(0x1): com.mediatek.geniezone.srv.m4u_sec_ha --- OK (session=13)
+====> GZ (6)[ 3294.520377]GZT svc-< session 0 com.mediatek.geniezone.srv.sys 42985800915 command: 0x1, paramTypes: 0x204
+====> GZ (6)[ 3294.520381][mtee-server] 347: param[0]: 0x13338 0x26 param[1]: 0xd 0x0 
+====> GZ (6)[ 3294.521698]GZT svc-> session 13 com.mediatek.geniezone.srv.m4u_sec_ha 42985818024
+====> GZ (6)[ 3294.521708][MTEE MEM SRV] 2116: [MTEE_MEM_SHAREDMEM_QUERY (0x7)] map to user app: aspace=0x383a61b0 --> addr=0x1b000
+====> GZ (6)[ 3294.521716][[LIB]M4U ] 202: m4u_sec_ha_handler, command(2005401623), paramTypes: 0x20101, shm_handle: 0xc,  nonsec_pt_pa=0xa8f30000
+====> GZ (6)[ 3294.521770][[LIB]M4U ] 163: m4uty_init, id:0, local_sec_pt_pa:0x7f3d0000, local_sec_pt_size:0x60000, iommu_type: 0x104
+====> GZ (6)[ 3294.521775][[LIB]M4U ] error 117: _get_secmem_info get handle failed, region = 0, ret = -65519
+====> GZ (6)[ 3294.521779][[LIB]M4U ] 167: m4uty_init, sec_pa_start=0x0, sec_pa_size=0x0, nonsec_pt_pa=0xa8f30000
+====> GZ (6)[ 3294.521782][[LIB]M4U ] error 176: m4uty_init, error: iommu type: 260 query sec mem fail
+====> GZ (6)[ 3294.521788]GZT svc-< session 13 com.mediatek.geniezone.srv.m4u_sec_ha 42985819251 command: 0x77880017, paramTypes: 0x20101
+====> GZ (6)[ 3294.521793][mtee-server] 347: param[0]: 0xc 0x0 param[1]: 0x1 0x1000 param[2]: 0x1342baf0 0xffffff80 
